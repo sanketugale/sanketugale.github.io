@@ -1139,3 +1139,8 @@ img.certificateImage{
   height: 200px;
   width: 280px;
 }
+div.certificateImage{
+  /* object-fit:contain; */
+  height: 200px;
+  width: 280px;
+}
