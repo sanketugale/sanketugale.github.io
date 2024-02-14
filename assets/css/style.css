@@ -1113,7 +1113,7 @@ div.achievementsCard{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 12px;
   width: 350px;
-  height: 550px;
+  height: auto;
   margin: 8px;
 }
 div.achievementsCard:hover{
@@ -1143,4 +1143,10 @@ div.certificateImage{
   /* object-fit:contain; */
   height: 200px;
   width: 280px;
+}
+.img-fluid {
+  width: 300px;  /* or any size you want */
+  height: auto; /* or any size you want */
+  max-width: 100%;
+  object-fit: cover; /* This will ensure that your images cover the whole space without distortion */
 }
