@@ -32,7 +32,45 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+#downloadResume {
+  background-color: #149ddd;
+  color: white;
+  padding: 13px 34px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  border: none;
+  font-size: 20px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+#downloadResume:hover {
+  background-color: #0b7bac;
+  color: #fff;
+}
+
+#hireMe{
+  background-color: #149ddd;
+  color: white;
+  padding: 13px 34px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  border: none;
+  font-size: 20px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#hireMe:hover{
+  background-color: #0b7bac;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
