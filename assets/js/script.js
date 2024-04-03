@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const __ms = document.querySelector('.micro-slider');
   const __msSlider = new MicroSlider(__ms, { indicators: true, indicatorText: '' });
   const hammer = new Hammer(__ms);
-	const __msTimer = 2000;
+	const __msTimer = 800;
   let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
     
   //detect mouseenter event
